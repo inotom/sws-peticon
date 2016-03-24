@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.2rem;
+}
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  overflow: hidden;
+}
+hr {
+  margin: 20px auto;
+  border: 0 none;
+  border-top: 1px solid #ccc;
+}
+
+.site-name {
+  margin: 30px auto;
+  color: #446;
+  font-size: 3.0rem;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px auto;
+  color: #446;
+  font-style: 1.8rem;
+}
+
+.shape-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.shape-list li {
+  float: left;
+  margin: 0 5px;
+}
+
+.color-box input {
+  vertical-align: middle;
+}
+
+.color-field {
+  margin-left: 10px;
+  font-size: 1.4rem;
+  font-family: monospace;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-box {
+  margin: 20px auto;
+}
+
+.link-box .link {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #59e;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.link-box .link:hover {
+  opacity: .8;
+}
+
+.copyright {
+  color: #999;
+  font-size: 1.0rem;
+  font-style: italic;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .site-name {
+    margin: 15px auto;
+    font-size: 2.0rem;
+  }
+}
