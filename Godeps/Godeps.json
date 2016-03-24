@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/inotom/peticon",
+	"ImportPath": "github.com/inotom/sws-peticon",
 	"GoVersion": "go1.6",
 	"Deps": []
 }
