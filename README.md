@@ -1,6 +1,6 @@
 # Peticon generator
 
-Petit icon generator web application with golang
+Petit icon generator web application with golang.
 
 ## License
 
