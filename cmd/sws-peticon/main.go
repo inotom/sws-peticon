@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/inotom/peticon"
+	"github.com/inotom/sws-peticon"
 	"html/template"
 	"log"
 	"net/http"
