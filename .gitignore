@@ -27,5 +27,5 @@ _testmain.go
 .DS_Store
 *~
 *.log
-peticon
-node_modules
+/peticon
+/node_modules
