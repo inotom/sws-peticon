@@ -1,1 +1,1 @@
-web: peticon
+web: sws-peticon
